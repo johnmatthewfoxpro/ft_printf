@@ -17,8 +17,6 @@ static unsigned int	get_length(unsigned int n)
 	unsigned int	digit;
 
 	digit = 0;
-	if (n < 0)
-		n = n * -1;
 	if (n == 0)
 		return (1);
 	while (n > 0)
